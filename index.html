@@ -1,207 +1,47 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<meta charset="utf-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<title>Shopzee-dummy-site</title>
-	<link rel="preconnect" href="https://fonts.googleapis.com">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Shopzee-dummy-site</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="style.css">
 </head>
 
-<style type="">
-	*{
-		margin: 0;
-		padding: 0;
-		font-family: 'Montserrat', sans-serif;
-	}
-	h2{
-		font-size: 2rem;
-		margin-bottom: 30px;
-	}
-	td{
-		font-size: 1.5rem;
-		font-family: 'Roboto', sans-serif;
-	}
-	nav{
-		background-color: palevioletred;
-		padding: 20px;
-	}
-	.nav-link{
-		color: #ffffff;
-	}
-	.nav-content{
-		margin-bottom: 20px;
-	}
-	a {
-		float: right;
-		text-decoration: none;
-		margin: 20px;
-		font-size: 20px;
-	}
-	.company-logo{
-		float: left;
-		height: 50px;
-		width: auto;
-	}
-	#search {
-			padding: 5px;
-			font-size: 18px;
-			border: 1px solid grey;
-			border-radius: 5px;
-            margin: 10px 10px 0 50px;
-	}
-	.search-bar{
-		display: inline-block;
-	}
-	.btn-search{
-		padding: 6px 10px;
-		vertical-align: middle;-webkit-border-radius: 8;
-		-moz-border-radius: 8;
-		border-radius: 8px;
-		font-family: Arial;
-		color: #ffffff;
-		font-size: 12px;
-		background: palevioletred;
-		padding: 10px 20px 10px 20px;
-		border: solid #ffffff 1px;
-		text-decoration: none;
-	}
-	.btn-search:hover{
-		background: #ffffff;
-        text-decoration: none;
-        color: palevioletred;
-	}
-	.btn {
-		-webkit-border-radius: 12;
-		-moz-border-radius: 12;
-		border-radius: 12px;
-		font-family: Arial;
-		color: #5B8FB9;
-		font-size: 20px;
-		background: #B9F3FC;
-		padding: 10px 20px 10px 20px;
-		border: solid #5B8FB9 2px;
-		text-decoration: none;
-		margin: 0 20px;
-	}
-	.btn:hover {
-		background: #5B8FB9;
-		text-decoration: none;
-		color: white;
-	}
-	hr{
-		border-style: none;
-		text-align: center;
-		width: 50%;
-	}
-	header {
-		margin: 0;
-		background-color: #B9F3FC;	
-		padding: 50px 50px;
-	}
-	.header-content
-	{
-		padding: 100px;
-		width: 80%;
-		text-align: center;
-	}
-	.header-text{
-		margin: 50px auto;
-	}
-	.about{
-		margin: 0;
-		background-color: #FAF8F1;
-		padding: 50px;
-	}
-	.about-box{
-		padding: 60px;
-		text-align: center;
-	}
-	.product-img{
-        transition: transform 0.5s;
-        width: 200px;
-        height: 200px;
-        margin: 0 auto;
-	}
-	.product-img:hover{
-		-ms-transform: scale(1.2); /* IE 9 */
-        -webkit-transform: scale(1.2); /* Safari 3-8 */
-        transform: scale(1.2);
-	}
-	.newsletter{
-		background-color: lightgrey;
-		padding: 50px;
-	}
-	.newsletter-text{
-		text-align: center;
-	}
-	form{
-		margin: 50px;
-		text-align: center;
-		/*padding: 20px;*/
-	}
-	.form-text{
-		font-size: 1.2rem;
-		line-height: 2;
-	}
-	.sub-btn {
-		-webkit-border-radius: 8;
-		-moz-border-radius: 8;
-		border-radius: 8px;
-		font-family: Arial;
-		color: #000000;
-		font-size: 18px;
-		background: lightgrey;
-		padding: 10px 20px 10px 20px;
-		border: solid #000000 1px;
-		text-decoration: none;
-	}
-	.sub-btn:hover {
-		background: #333333;
-		text-decoration: none;
-		color: #ffffff;
-	}
-	footer{
-		background-color: #333333;
-		color: white;
-		text-align: center;
-		padding: 20px 50px;
-	}
-</style>
-
 <body>
-		<nav>
-			<div class="nav-content">
-				<img src="letter-s.png" alt="Shop logo" class="company-logo">
-					<input type="text" name="search" id="search" placeholder="What are you looking for?">
-					<button class="btn-search">Search</button>
-				<a href="#" class="nav-link">Contact</a>
-				<a href="#" class="nav-link">About us</a>
-				<a href="#" class="nav-link">Home</a>
-			</div>
-		</nav>
-		<header>
-			<table>
-				<tr>
-					<td>
-						<div header-img>
-							<img src="letter-s.png" alt="company logo">
-						</div>
-					</td>
-					<td>
-						<div class="header-content">
-							<h1 class="header-text" style="font-size: 4.5rem;">Welcome to Shopzee</h1>
-							<h3 class="header-text" style="font-size: 1.5rem;">Fresh fashion every week</h3>
-							<button class="btn">Log in</button>
-							<button class="btn">Sign up</button>
-						</div>
-					</td>
-				</tr>
-			</table>
-		</header>
-		<section class="about">
+	<nav class="sticky-nav">
+		<div class="nav-content">
+			<img src="letter-s.png" alt="Shop logo" class="company-logo">
+			<input type="text" name="search" id="search" placeholder="What are you looking for?">
+			<button class="btn-search">Search</button>
+			<a href="#" class="nav-link">Contact</a>
+			<a href="#" class="nav-link">About us</a>
+			<a href="#" class="nav-link">Home</a>
+		</div>
+	</nav>
+	<header>
+		<table>
+			<tr>
+				<td>
+					<div header-img>
+						<img src="letter-s.png" alt="company logo">
+					</div>
+				</td>
+				<td>
+					<div class="header-content">
+						<h1 class="header-text" style="font-size: 4.5rem;">Welcome to Shopzee</h1>
+						<h3 class="header-text" style="font-size: 1.5rem;">Fresh fashion every week</h3>
+						<button class="btn">Log in</button>
+						<button class="btn">Sign up</button>
+					</div>
+				</td>
+			</tr>
+		</table>
+	</header>
+	<section class="about">
 		<div class="about-box">
 			<h2>Select from different categories</h2>
 			<hr>
@@ -220,27 +60,28 @@
 				</tr>
 			</table>
 		</div>
-		</section>
+	</section>
 
-		<section class="newsletter">
-			<div class="newsletter-text">
-				<h2>Subscribe to our newsletter</h2>
-				<form class="">
-					<label for="name" class="form-text">Your name:</label>
-					<input type="text" id="fname" name="fname"><br><br>
-					<label for="e-mail" class="form-text">Your E-mail:</label>
-					<input type="text" id="email" name="lname"><br><br>
-					<button type="submit" class="sub-btn">Subscribe</button>
-				</form>
-			</div>
-		</section>
+	<section class="newsletter">
+		<div class="newsletter-text">
+			<h2>Subscribe to our newsletter</h2>
+			<hr>
+			<form class="">
+				<label for="name" class="form-text">Your name:</label>
+				<input type="text" id="fname" name="fname"><br><br>
+				<label for="e-mail" class="form-text">Your E-mail:</label>
+				<input type="text" id="email" name="lname"><br><br>
+				<button type="submit" class="sub-btn">Subscribe</button>
+			</form>
+		</div>
+	</section>
 
 </body>
 
 <footer class="">
-		<p class="text-footer">
-			© Copyright Shopzee. All rights reserved
-		</p>
+	<p class="text-footer">
+		© Copyright Shopzee. All rights reserved
+	</p>
 </footer>
 
 </html>
